@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{d0af01f2-2842-4b8c-a077-372d3212e655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\static">
+      <UniqueIdentifier>{a85af2db-83d1-4f9e-aa2b-2a8e35a8865d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\static\kun">
+      <UniqueIdentifier>{27a68251-8886-4bbf-98ad-e30160bf1911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\static\kun\unittest">
+      <UniqueIdentifier>{e4f6c34a-8882-4bf9-a447-d99ab430e268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\static\kun\module">
+      <UniqueIdentifier>{90379f17-85f8-4dcc-819a-062d09d3cf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic">
+      <UniqueIdentifier>{90f9487e-db52-4c2c-a901-62c5c309dd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement">
+      <UniqueIdentifier>{4757b175-c5ba-4e85-bb33-17d9362aa6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun">
+      <UniqueIdentifier>{b6c75ca8-de4e-4b60-aa05-0471dd21b3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun">
+      <UniqueIdentifier>{8d8d242e-a520-44b5-aec5-3644d50711c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun\module">
+      <UniqueIdentifier>{796b560a-6c62-4173-a98b-57374fe2e58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun\reflect">
+      <UniqueIdentifier>{59b5e7cf-f24d-401c-ab87-cda4f668b6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\module">
+      <UniqueIdentifier>{590e9fee-5255-4c93-8129-aedf41333190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\reflect">
+      <UniqueIdentifier>{66c2e4f5-1602-4f4e-b9ca-cc9589d4ea04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\unittest">
+      <UniqueIdentifier>{ecf94a15-1585-4151-8035-9f59d78dcef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\reflect\unittest">
+      <UniqueIdentifier>{693db7a0-8f4b-4f89-8e5e-be22ee43570d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\ui">
+      <UniqueIdentifier>{73a60dcf-057c-4117-88cc-1e0618ad1a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun\math">
+      <UniqueIdentifier>{6d351e8f-6f21-484b-add7-dca4aabad573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\ui\unittest">
+      <UniqueIdentifier>{04e514af-8818-4241-be56-f9c1b7479abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun\display">
+      <UniqueIdentifier>{d0792a2d-f992-42c8-8a8b-0cf897c36174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\object">
+      <UniqueIdentifier>{6c866596-19ae-4f65-a611-f87bff4e2a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun\object">
+      <UniqueIdentifier>{75cb8726-4811-4397-ac46-be507d990800}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\attribute.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\field.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\id.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\metaclass.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\method.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\module\moduleinterface.h">
+      <Filter>interface\dynamic\kun\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\static\kun\module\modulemanager.h">
+      <Filter>interface\static\kun\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\registry.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\reflect\registryimpl.h">
+      <Filter>implement\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\stream.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\static\kun\unittest\tester.h">
+      <Filter>interface\static\kun\unittest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\types.h">
+      <Filter>interface\dynamic\kun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\typetraits.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\singleptr.h">
+      <Filter>interface\dynamic\kun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\unittestbase.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\math\vector.h">
+      <Filter>interface\dynamic\kun\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\button.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\graphicinstanceinterface.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\inputdevice.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\inputevent.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\popmenu.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\widget.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\widgetmanager.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\widgetmanagerinterface.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\display\grafxdevice.h">
+      <Filter>interface\dynamic\kun\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\node.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\tree.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\reflect\jsonreader.h">
+      <Filter>implement\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\file.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\jsonwriterstream.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\binstream.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\rttivector.h">
+      <Filter>interface\dynamic\kun\reflect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\interface\dynamic\kun\object\identifiable.h">
+      <Filter>interface\dynamic\kun\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\object\identifiablesetimpl.h">
+      <Filter>implement\kun\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\canvas.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\assetlib.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\events.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\ui\transform.h">
+      <Filter>implement\kun\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="register.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\module\modulemanager.cpp">
+      <Filter>implement\kun\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\reflect\registryimpl.cpp">
+      <Filter>implement\kun\reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\unittest\tester.cpp">
+      <Filter>implement\kun\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\reflect\unittest\reflect_unittest.cpp">
+      <Filter>implement\kun\reflect\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\reflect\metaclass.cpp">
+      <Filter>implement\kun\reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\button.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\inputdevice.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\popmenu.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\widget.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\widgetmanager.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\unittest\ui_tester.cpp">
+      <Filter>implement\kun\ui\unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\node.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\tree.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\reflect\jsonreader.cpp">
+      <Filter>implement\kun\reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\object\identifiable.cpp">
+      <Filter>implement\kun\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\object\identifiablesetimpl.cpp">
+      <Filter>implement\kun\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\canvas.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\assetlib.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\ui\transform.cpp">
+      <Filter>implement\kun\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\uiconfig.json">
+      <Filter>implement\kun\ui\unittest</Filter>
+    </None>
+  </ItemGroup>
+</Project>

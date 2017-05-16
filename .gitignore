@@ -1,0 +1,41 @@
+# Compiled Object files
+*.o
+*.obj
+*.iobj
+
+# IDE
+*.db
+*.opendb
+*.sdf
+*.idb
+*.ipdb
+applicationhost.config
+
+# Precompiled Headers
+*.gch
+*.pch
+*.ipch
+
+# Compiled Dynamic libraries
+*.dll
+
+# Compiled Static libraries
+*.lib
+
+# Executables
+*.exe
+*.exp
+
+# Logs
+*.tlog
+*.log
+
+# Texts
+TODO.txt
+
+# Tests
+*.bin
+*test*.json
+output/*
+implement/kun/ui/unittest/json/*
+implement/extern/*

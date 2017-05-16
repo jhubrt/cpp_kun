@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{81C279FE-12B5-455B-ABF1-21FACEB406E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\output\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\output\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\output\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\output\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..;.\;..\..\implement\extern\rapidjson\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..;.\;..\..\implement\extern\rapidjson\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..;.\;..\..\implement\extern\rapidjson\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..;.\;..\..\implement\extern\rapidjson\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\implement\kun\object\identifiablesetimpl.h" />
+    <ClInclude Include="..\..\implement\kun\reflect\jsonreader.h" />
+    <ClInclude Include="..\..\implement\kun\ui\transform.h" />
+    <ClInclude Include="..\..\implement\kun\ui\assetlib.h" />
+    <ClInclude Include="..\..\implement\kun\ui\button.h" />
+    <ClInclude Include="..\..\implement\kun\ui\canvas.h" />
+    <ClInclude Include="..\..\implement\kun\ui\events.h" />
+    <ClInclude Include="..\..\implement\kun\ui\graphicinstanceinterface.h" />
+    <ClInclude Include="..\..\implement\kun\ui\inputdevice.h" />
+    <ClInclude Include="..\..\implement\kun\ui\inputevent.h" />
+    <ClInclude Include="..\..\implement\kun\ui\node.h" />
+    <ClInclude Include="..\..\implement\kun\ui\popmenu.h" />
+    <ClInclude Include="..\..\implement\kun\ui\tree.h" />
+    <ClInclude Include="..\..\implement\kun\ui\widget.h" />
+    <ClInclude Include="..\..\implement\kun\ui\widgetmanager.h" />
+    <ClInclude Include="..\..\implement\kun\ui\widgetmanagerinterface.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\display\grafxdevice.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\math\vector.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\module\moduleinterface.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\object\identifiable.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\attribute.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\binstream.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\file.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\jsonwriterstream.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\rttivector.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\unittestbase.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\field.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\id.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\metaclass.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\method.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\registry.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\stream.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\reflect\typetraits.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\types.h" />
+    <ClInclude Include="..\..\interface\dynamic\kun\singleptr.h" />
+    <ClInclude Include="..\..\interface\static\kun\module\modulemanager.h" />
+    <ClInclude Include="..\..\interface\static\kun\unittest\tester.h" />
+    <ClInclude Include="..\..\implement\kun\reflect\registryimpl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\implement\kun\module\modulemanager.cpp" />
+    <ClCompile Include="..\..\implement\kun\object\identifiable.cpp" />
+    <ClCompile Include="..\..\implement\kun\object\identifiablesetimpl.cpp" />
+    <ClCompile Include="..\..\implement\kun\reflect\jsonreader.cpp" />
+    <ClCompile Include="..\..\implement\kun\reflect\metaclass.cpp" />
+    <ClCompile Include="..\..\implement\kun\reflect\registryimpl.cpp" />
+    <ClCompile Include="..\..\implement\kun\reflect\unittest\reflect_unittest.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\transform.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\assetlib.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\button.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\canvas.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\inputdevice.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\node.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\popmenu.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\tree.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\unittest\ui_tester.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\widget.cpp" />
+    <ClCompile Include="..\..\implement\kun\ui\widgetmanager.cpp" />
+    <ClCompile Include="..\..\implement\kun\unittest\tester.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="register.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\uiconfig.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

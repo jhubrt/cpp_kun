@@ -1,0 +1,8 @@
+{
+	"kun::ui::AssetLibrary": 
+	{
+		"u32 classname#kun::ui::AssetLibrary": "",
+		"u32 m_textureFiles": 2,
+		"string m_textureFiles": [ "button1_0.bmp", "button1_1.bmp" ]	
+	}
+}

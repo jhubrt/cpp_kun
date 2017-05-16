@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="interface">
+      <UniqueIdentifier>{4ffbb766-cca1-4624-8091-c03f3a755848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic">
+      <UniqueIdentifier>{5b46f5c5-7ba1-4194-aafe-6d1247daaae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun">
+      <UniqueIdentifier>{c211021a-87ac-475b-ac17-f287810ff868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\dynamic\kun\display">
+      <UniqueIdentifier>{1137405d-80dd-4788-bdf8-5803399cf00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="implement\plugin_grafx">
+      <UniqueIdentifier>{da65d925-b72c-426b-8b50-f3a5a89844b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun">
+      <UniqueIdentifier>{32a0e124-a055-436a-b144-1a6e69ea6975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="implement\kun\grafx">
+      <UniqueIdentifier>{42df6d25-da94-40a4-bfcc-ab6b2337bc4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\interface\dynamic\kun\display\grafxdevice.h">
+      <Filter>interface\dynamic\kun\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\implement\kun\display\grafxplugin.h">
+      <Filter>implement\plugin_grafx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>implement\plugin_grafx</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>implement\plugin_grafx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmainGrafx.cpp">
+      <Filter>implement\plugin_grafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\display\grafxplugin.cpp">
+      <Filter>implement\plugin_grafx</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>implement\plugin_grafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\implement\kun\display\sdldevice.cpp">
+      <Filter>implement\kun\grafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,189 @@
+{
+	"kun::ui::Config": 
+	{
+		"u32 classname#kun::ui::Config": "",
+		"kun::ui::PopMenuFrameConfig": {
+			"u32 classname#kun::ui::PopMenuFrameConfig": "",
+			"baseclasses": [{
+				"u32 classname#kun::ui::FrameConfig": "",
+				"baseclasses": [{
+					"u32 classname#kun::ui::WidgetConfig": "",
+					"u32 m_name#test_popmenuframe1": "",
+					"float m_x": 0.000000,
+					"float m_y": 0.000000,
+					"float m_w": 640.000000,
+					"float m_h": 480.000000
+				}],
+				"u32 m_children": 2,
+				"m_children": [{
+					"u32 classname#kun::ui::ButtonConfig": "",
+					"baseclasses": [{
+						"u32 classname#kun::ui::WidgetConfig": "",
+						"u32 m_name#test_button1": "",
+						"float m_x": 10.000000,
+						"float m_y": 10.000000,
+						"float m_w": 20.000000,
+						"float m_h": 20.000000
+					}],
+					"bool m_checkButton" : 0,
+					"u32 m_filenames": 2,
+					"string m_filenames": [ "button1_0.bmp", "button1_1.bmp" ],
+					"string m_text": "X",
+					"u8 m_type": 1
+				},
+				{
+					"u32 classname#kun::ui::PopMenuConfig": "",
+					"baseclasses": [{
+						"u32 classname#kun::ui::WidgetConfig": "",
+						"u32 m_name#test_popmenu1": "",
+						"float m_x": 0.000000,
+						"float m_y": 0.000000,
+						"float m_w": 0.000000,
+						"float m_h": 0.000000
+					}],
+					"bool m_horizontal": 0,
+					"float m_padding": 10.000000,
+					"u32 m_buttons": 3,
+					"m_buttons": [{
+						"u32 classname#kun::ui::ButtonConfig": "",
+						"baseclasses": [{
+							"u32 classname#kun::ui::WidgetConfig": "",
+							"u32 m_name#test_popmenu1_button1": "",
+							"float m_x": 0.000000,
+							"float m_y": 0.000000,
+							"float m_w": 40.000000,
+							"float m_h": 30.000000
+						}],
+						"bool m_checkButton" : 0,
+						"u32 m_filenames": 0,
+						"string m_filenames": [],
+						"string m_text": "1",
+						"u8 m_type": 0
+					},
+					{
+						"u32 classname#kun::ui::ButtonConfig": "",
+						"baseclasses": [{
+							"u32 classname#kun::ui::WidgetConfig": "",
+							"u32 m_name#test_popmenu1_button2": "",
+							"float m_x": 0.000000,
+							"float m_y": 0.000000,
+							"float m_w": 40.000000,
+							"float m_h": 30.000000
+						}],
+						"bool m_checkButton" : 0,
+						"u32 m_filenames": 0,
+						"string m_filenames": [],
+						"string m_text": "2",
+						"u8 m_type": 0
+					},
+					{
+						"u32 classname#kun::ui::ButtonConfig": "",
+						"baseclasses": [{
+							"u32 classname#kun::ui::WidgetConfig": "",
+							"u32 m_name#test_popmenu1_button3": "",
+							"float m_x": 0.000000,
+							"float m_y": 0.000000,
+							"float m_w": 40.000000,
+							"float m_h": 30.000000
+						}],
+						"bool m_checkButton" : 0,
+						"u32 m_filenames": 0,
+						"string m_filenames": [],
+						"string m_text": "3",
+						"u8 m_type": 0
+					}],
+					"u32 m_popmenus": 2,
+					"m_popmenus": [{
+						"u32 classname#kun::ui::PopMenuConfig": "",
+						"baseclasses": [{
+							"u32 classname#kun::ui::WidgetConfig": "",
+							"u32 m_name#test_popmenu2": "",
+							"float m_x": 0.000000,
+							"float m_y": 0.000000,
+							"float m_w": 0.000000,
+							"float m_h": 0.000000
+						}],
+						"bool m_horizontal": 1,
+						"float m_padding": 10.000000,
+						"u32 m_buttons": 1,
+						"m_buttons": [{
+							"u32 classname#kun::ui::ButtonConfig": "",
+							"baseclasses": [{
+								"u32 classname#kun::ui::WidgetConfig": "",
+								"u32 m_name#test_button111": "",
+								"float m_x": 0.000000,
+								"float m_y": 0.000000,
+								"float m_w": 40.000000,
+								"float m_h": 30.000000
+							}],
+							"bool m_checkButton" : 0,
+							"u32 m_filenames": 0,
+							"string m_filenames": [],
+							"string m_text": "1",
+							"u8 m_type": 0
+						}],
+						"u32 m_popmenus": 0,
+						"m_popmenus": []
+					},
+					{
+						"u32 classname#kun::ui::PopMenuConfig": "",
+						"baseclasses": [{
+							"u32 classname#kun::ui::WidgetConfig": "",
+							"u32 m_name#test_button4": "",
+							"float m_x": 0.000000,
+							"float m_y": 0.000000,
+							"float m_w": 0.000000,
+							"float m_h": 0.000000
+						}],
+						"bool m_horizontal": 1,
+						"float m_padding": 10.000000,
+						"u32 m_buttons": 1,
+						"m_buttons": [{
+							"u32 classname#kun::ui::ButtonConfig": "",
+							"baseclasses": [{
+								"u32 classname#kun::ui::WidgetConfig": "",
+								"u32 m_name#test_button112": "",
+								"float m_x": 0.000000,
+								"float m_y": 0.000000,
+								"float m_w": 40.000000,
+								"float m_h": 30.000000
+							}],
+							"bool m_checkButton" : 0,
+							"u32 m_filenames": 0,
+							"string m_filenames": [],
+							"string m_text": "1",
+							"u8 m_type": 0
+						}],
+						"u32 m_popmenus": 0,
+						"m_popmenus": []
+					}]
+				}]
+			}]
+		},
+        "u32 m_eventsmap" : 2,
+        "m_eventsmap" : [
+			{
+                "u32 classname#kun::ui::EventMapping" : "",
+                "u32 m_sourcepath" : 3,
+                "u32 m_sourcepath#test_popmenuframe1" : "",
+				"u32 m_sourcepath#test_popmenu2" : "", 
+				"u32 m_sourcepath#test_button111" : "",
+                "u32 m_sourcecallassign#s_assignButtonPress" : "",
+                "u32 m_targetpath" : 2,
+                "u32 m_targetpath" : -1,
+                "u32 m_targetpath#app" : "",
+                "u32 m_targetcallreceiver#TestUI_display" : ""
+			},	
+			{
+                "u32 classname#kun::ui::EventMapping" : "",
+                "u32 m_sourcepath" : 2,
+                "u32 m_sourcepath#test_popmenuframe1" : "",
+				"u32 m_sourcepath#test_button1" : "",
+                "u32 m_sourcecallassign#s_assignButtonPress" : "",
+                "u32 m_targetpath" : 2,
+                "u32 m_sourcepath#test_popmenuframe1" : "",
+                "u32 m_targetpath#test_popmenu1" : "",
+                "u32 m_targetcallreceiver#s_pop" : ""
+			}]	
+	}
+}
