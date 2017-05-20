@@ -41,6 +41,8 @@
 #include <time.h>
 
 
+#define UI_TEST_FOLDER "..\\..\\test\\"
+
 //---------------------------------------------------------------------------
 // Unit test class
 //---------------------------------------------------------------------------
@@ -128,7 +130,7 @@ namespace kun
 
 						canvasconfig.m_children.push_back(popmenu.get());
 
-						kref::StdFile file("..\\..\\test\\uitest.json", kref::StdFile::WRITE);
+						kref::StdFile file(UI_TEST_FOLDER "uitest.json", kref::StdFile::WRITE);
 						kref::JSonWriterStream stream(file);
 
 						kref::Serializer serializer(stream, kref::SerializeClassUltraLight);
@@ -141,7 +143,7 @@ namespace kun
 
 						{
 							kref::StdFile tracefileout ("tracefileui.log", kref::StdFile::WRITE);
-							jsonstream = kref::JsonRead("..\\..\\test\\uitest.json", &tracefileout);
+							jsonstream = kref::JsonRead(UI_TEST_FOLDER "uitest.json", &tracefileout);
 						}
 
 						kref::StdFile tracefile ("tracefileui.log", kref::StdFile::READ);
@@ -174,7 +176,7 @@ namespace kun
 						kui::AssetLibrary* assetLibrary = nullptr;
 
 						{
-							kref::Stream* stream = kref::JsonRead("..\\..\\test\\uiassetlib.json");
+							kref::Stream* stream = kref::JsonRead(UI_TEST_FOLDER "uiassetlib.json");
 							assert(stream != nullptr);
 
 							void* object;
@@ -219,7 +221,7 @@ namespace kun
 						}
 						
 						{
-							kref::Stream* stream = kref::JsonRead("..\\..\\test\\uiconfig.json");
+							kref::Stream* stream = kref::JsonRead(UI_TEST_FOLDER "uiconfig.json");
 
 							void* object;
 
@@ -308,10 +310,10 @@ namespace kun
 								case 'D':
 								case 'd':
 								{
-									kui::DebugWidgetDumper dumper("D:\\dev\\UI\\tree.txt");
+									kui::DebugWidgetDumper dumper(UI_TEST_FOLDER "tree.txt");
 
 									manager.getRoot()->m_node->visit(dumper);
-									manager.DebugDumpActiveWidgetsList("D:\\dev\\UI\\flat.txt");
+									manager.DebugDumpActiveWidgetsList(UI_TEST_FOLDER "flat.txt");
 								}
 								break;
 								}
