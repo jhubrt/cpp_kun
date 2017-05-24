@@ -317,7 +317,8 @@ namespace kun
 
 					// Serialize object
 					{
-						kref::StdFile file("D:\\dev\\framework\\test\\jsontest.json", kref::StdFile::WRITE);
+						kref::StdFile file("..\\..\\test\\jsontest.json", kref::StdFile::WRITE);
+						assert(file.IsValid());
 						kref::JSonWriterStream stream(file);
 
 						printf("Serialization:\n");
@@ -331,7 +332,7 @@ namespace kun
 						kref::Serialize(seralizer, *pa);
 					}
 					{
-						kref::BinStream<kref::StdFile> binstream("D:\\dev\\framework\\test\\metaclass.bin", kref::StdFile::WRITE);
+						kref::BinStream<kref::StdFile> binstream("..\\..\\test\\metaclass.bin", kref::StdFile::WRITE);
 						kref::StdFile tracefile ("tracefile2.log", kref::StdFile::WRITE);
 						auto stream = binstream.CreateTracer(&tracefile);
 
