@@ -349,7 +349,7 @@ namespace kun
 
 						{
 							kref::StdFile tracefileout ("tracefile2.log", kref::StdFile::WRITE);
-							jsonstream = kref::JsonRead("D:\\dev\\framework\\test\\jsontest.json", &tracefileout);
+							jsonstream = kref::JsonRead("..\\..\\test\\jsontest.json", &tracefileout);
 						}
 
 						kref::StdFile tracefile ("tracefile2.log", kref::StdFile::READ);
